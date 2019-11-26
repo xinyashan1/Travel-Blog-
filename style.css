@@ -1,0 +1,102 @@
+/*CSS Layout stylesheet*/
+
+
+div {
+    background-color: rgb(247, 224, 228);
+    width: 300px;
+    border: 20px pink;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+  } 
+
+body {
+    color: rgb(235, 192, 215);
+    background-color: rgb(253, 247, 247);
+    font-family: sans-serif;
+}
+main {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #333;
+    
+    
+}
+header {
+    height: 7em;
+    padding: 2em; 
+    background-image: url(images/paris.jpg);
+    
+}
+nav {
+    height: 2em;
+    background-color: rgb(233, 183, 222);
+}
+.navBar a:link, .navBar a:visited {
+    line-height: 2em;
+    display: block;
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+}
+.navBar a:hover {
+    background-color: #ffffff;
+}
+section {
+    min-height: 6em;
+    
+}
+#sideNews {
+    width: 30%;
+    float: left;
+}
+#aboutSideNews {
+    width: 25%;
+    float: left;
+}
+#content {
+    width: 70%;
+    float: right;
+    column-count: 2;
+    column-rule: 1px solid rgb(255, 255, 255);
+    column-gap: 20px;
+}
+#content h3 {
+    margin: 0;
+}
+#aboutContent {
+    width: 50%;
+    float: left;
+    column-count: 2;
+    column-rule: 1px solid rgb(187, 231, 241);
+}
+#galContent {
+    width: 50%;
+    float: left;
+}
+.textPad {
+    padding: 1em 2em;
+}
+.photoBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.photoColumn {
+    width: 50%;
+    
+}
+.photoColumn img {
+    width: 100%;
+}
+footer {
+    clear:both;
+    height: 5em;
+    color: black;
+    background-color: rgb(255, 232, 245);
+    
+}
+ 

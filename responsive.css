@@ -1,0 +1,68 @@
+/* ------- End of Mobile Phone ------- */
+/* ------- Tablet and IPad ------- */
+@media only screen and (min-width: 601px){
+    main {
+        width: 90%;
+        margin: 0 auto;
+        background-color: #f3d7dc;
+    }
+       .specials {
+        width: 20%;
+        float: left;
+    
+    }
+    .mainContent {
+        width: 80%;
+        float: left;
+    }
+    .navBar {
+        overflow: hidden;
+        padding: 0 10%;
+    }
+    .navBar a, .navBar a:link, .navBar a:visited {
+        display: block;
+        width: 25%;
+        float: left;
+        text-align: center;
+        line-height: 2em;
+        color: cornsilk;
+        text-decoration: none; 
+    }
+    .navBar a:hover {
+        background-color: #a8bcc9;
+        color: rgb(255, 254, 254);
+    }
+    .photoColumn {
+        width: 50%;
+    }
+}
+
+
+/* ------- End of Tablet and IPad ------- */
+/* ------- Desktop ------- */
+@media only screen and (min-width: 1000px){
+    main {
+        width: 80%;
+        max-width: 1400px;
+        margin: 0 auto;
+        background-color: #eff7af;
+        color: rgb(3, 3, 3);
+    }
+    .specials {
+        width: 30%;
+        float: left;
+    
+    }
+    .mainContent {
+        width: 70%;
+        float: left;
+    }
+    .photoColumn {
+        flex: 50%;
+    }
+    
+}
+
+
+
+/* ------- End of Desktop ------- */
